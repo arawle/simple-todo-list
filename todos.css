@@ -33,6 +33,11 @@ ul li {
   font-size:22px;
 }
 
+span {
+  float: right;
+  color: white;
+}
+
 .completed {
   text-decoration:line-through;
   color:#eee;
