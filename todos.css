@@ -1,11 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
 * {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 body {
-  max-width:320px;
   margin:0 auto;
+  max-width:320px;
 }
 h1 {
   font-size:52px;
@@ -13,36 +12,33 @@ h1 {
   margin:10px 0 20px 0;
 }
 input {
-  border:none;
-  width:100%;
-  font-size:22px;
   background:#eee;
+  border:none;
+  font-size:22px;
   padding:8px 20px;
+  width:100%;
 }
 ul {
-  margin:20px 0;
-  padding:0;
+  margin:20px 0px;
+  padding:0px;
 }
 ul li {
-  width:100%;
-  list-style-type: none;
   background:#ccc;
   color:#666;
+  font-size:22px;
+  list-style-type: none;
   margin-bottom:1px;
   padding:8px 20px;
-  font-size:22px;
+  width:100%;
 }
-
 span {
-  float: right;
   color: white;
+  float: right;
 }
-
 .completed {
   text-decoration:line-through;
   color:#eee;
 }
-
 #add_todo{
   margin-left:10px;
   background:#FF6666;
